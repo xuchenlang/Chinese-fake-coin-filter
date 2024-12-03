@@ -8,3 +8,16 @@
 3. Write Go Code:
 - Use the Go programming language to send requests to the TensorFlow Serving API for predictions.
 - Handle image preprocessing, model inference, and response interpretation in Go.
+
+
+4. Folder structure:
+dataset/
+├── train/
+│   ├── authentic/
+│   ├── fake/
+├── validation/
+│   ├── authentic/
+│   ├── fake/
+├── test/
+    ├── authentic/
+    ├── fake/
